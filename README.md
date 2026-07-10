@@ -52,4 +52,6 @@ daily-ledger-todo/
 
 ## Author
 
+Vaishali🎀
+
 Built as part of the Oasis Infobyte web development internship task series (Task 3 — To-Do Web App).
