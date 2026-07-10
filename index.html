@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Ledger — To-Do App</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <div class="masthead">
+    <h1>Daily Ledger</h1>
+    <div class="date" id="today-date"></div>
+  </div>
+
+  <div class="entry-row">
+    <input type="text" id="new-task-input" placeholder="Log a new task…" maxlength="200">
+    <button id="add-task-btn">Add task</button>
+  </div>
+
+  <div class="columns">
+    <div>
+      <div class="col-head">
+        <h2>Pending</h2>
+        <span class="count" id="pending-count">0 pending</span>
+      </div>
+      <ul class="list" id="pending-list"></ul>
+    </div>
+    <div>
+      <div class="col-head">
+        <h2>Completed</h2>
+        <span class="count" id="completed-count">0 completed</span>
+      </div>
+      <ul class="list" id="completed-list"></ul>
+    </div>
+  </div>
+
+  <div class="footnote">entries saved automatically in your browser</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
